@@ -1,0 +1,442 @@
+.top {
+    background-color: #001d4c;
+    color: white;
+    text-align: center;
+}
+
+.top i {
+    color: #3baed4;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.top .helpline {
+    color: rgba(255, 255, 255, 0.829);
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top .number {
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 25px;
+}
+
+.top .number-time {
+    margin-top: 4px;
+    margin-left: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.top img {
+    margin-top: 20px;
+}
+
+.vertical {
+    border-left: 1px solid rgba(224, 223, 223, 0.548);
+    height: 70px;
+    position: absolute;
+    margin-left: 190px;
+    left: 50%;
+    top: 20px;
+}
+
+@media only screen and (max-width:700px) {
+    .vertical {
+        border-left: 1px solid rgba(224, 223, 223, 0.548);
+        height: 220px;
+        margin-top: 100px;
+        margin-left: 5px;
+        transform: rotate(90deg);
+    }
+}
+
+
+/*   ______BEST_SERVICES SECTION __________*/
+
+.best-services h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    color: #244d8b;
+    margin-bottom: 17px;
+}
+
+.best-services h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.services {
+    margin-top: 40px;
+}
+
+.services .services-box p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 350;
+}
+
+.services .services-box h4 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+.services .services-box {
+    transition: 0.5s;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.services .services-box:hover {
+    transition: 0.5s;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/*__________navbar section_________*/
+
+.cole .navbar-nav li a {
+    color: white !important;
+    font-size: 18px;
+    margin-right: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder !important;
+}
+
+.cole .navbar-nav li a:hover {
+    color: white;
+    background-color: #001d4c;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.cole .navbar-brand img {
+    width: 400px;
+    height: 70px;
+}
+
+@media only screen and (max-width:560px) {
+    .cole .navbar-brand img {
+        width: 240px;
+        height: 50px;
+        margin-left: -15px;
+    }
+}
+
+.intro {
+    color: #001d4c;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+.duction {
+    color: #17a2b8;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+}
+
+.introduction {
+    text-align: justify;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.quote {
+    background-color: #001bb4f3;
+    height: auto;
+}
+
+.quote .quo {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 90px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+
+.quote .te {
+    line-height: 245px;
+    text-align: center;
+}
+
+.quote .te .btn {
+    text-align: center;
+    color: #10707f;
+    background-color: white;
+    border-radius: 4px;
+    width: 160px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.quote .te .btn:hover {
+    text-align: center;
+    color: white;
+    background-color: #17a2b8!important;
+    border-radius: 4px;
+    width: 160px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+/* Click Here Get in Touch {CONTACT} Section */
+
+.click h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+
+.line {
+    background-color: #0c5adb;
+    width: 40px;
+    height: 1px;
+    font-size: 1px;
+    border: 1px solid #0c5adb;
+}
+
+.here .icon {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    transition: 0.3s;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.here .icon:hover {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.3s;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.here .icon i {
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    color: #10707f;
+}
+
+.map-heading h2 {
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+}
+
+.map-heading {
+    margin-bottom: 60px;
+}
+
+
+/* _________________________ {ABOUT} Section---------- */
+
+.about h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.about p {
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.about-box {
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 3px 10px 0px rgba(255, 255, 255, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 4%;
+    transition: 0.8s;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about-box p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.about-box h3 {
+    font-size: xx-large;
+    margin: 3% 3% 3% 3%;
+    margin-top: 20px;
+}
+
+.about-box:hover {
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 3px 10px 0px #ffffff;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.8s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*____________-------FOOOTER SECTION___________-------------*/
+
+.footer {
+    background-color: #001d4c;
+}
+
+.footer i {
+    color: #17a2b8;
+    font-size: 19px;
+}
+
+.footer p {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.footer .heading {
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer a {
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.footer a.second-section {
+    line-height: 50px;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.footer .transition-footer a.second-section:hover {
+    line-height: 50px;
+    color: white;
+    font-size: 23px;
+    transition: 0.4s;
+}
+
+.end {
+    background-color: #10707f;
+    color: white;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+
+/*______------LCD REPAIR------------__________*/
+
+.back {
+    background-color: rgb(243, 243, 243);
+}
+
+.back .heading .lcd {
+    margin-top: 60px;
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+.back .heading .repair {
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 50px;
+    color: #3baed4;
+    font-weight: 500;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 5px;
+}
+
+.lcd-repair img {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.lcd-repair p {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
